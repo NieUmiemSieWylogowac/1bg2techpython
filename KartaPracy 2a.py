@@ -16,9 +16,22 @@
 #zad 3
 # k=int(input())
 # l=int(input())
-# m=int(input());
-# if(k == l and k < m and l < m) or (l == m and l < k and m < k ) or (k == m and k < l and m < l):
+# # m=int(input());
+# if k==l:
+#    print("TAK")
+#    print("k,l")
+#  else:
+#    print("NIE")
+
+# if l==m:
 #   print("TAK")
+#   print("l,m")
+# else:
+#   print("NIE")
+
+# if m==k:
+#   print("TAK")
+#   print("m,k")
 # else:
 #   print("NIE")
 
@@ -30,8 +43,35 @@
 # print(min(a,b,c,d))
 
 #zad 5
-a=int(input())
-b=int(input())
-c=int(input())
-if()
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a<(b+c) and a>(b-c) and b<(a+c) and b>(a-c) and c<(a+b) and c>(a-b):
+#    print("tak")
+# else:
+#   print("nie")
 
+#zad 6
+a = int(input())
+b = int(input())
+c = int(input())
+
+if c < (a + b) and c**2 < (a**2+b**2):
+  print("TAK")
+  print("Trójkąt ostrokątny")
+else:
+  print("NIE")
+
+
+if c < (a + b) and c**2 == (a**2+b**2):
+  print("TAK")
+  print("Trójkąt prostokątny")
+else:
+  print("NIE")
+
+  
+if c < (a + b) and c**2 > (a**2+b**2):
+  print("TAK")
+  print("Trójkąt rozwartokątny")
+else:
+  print("NIE")
