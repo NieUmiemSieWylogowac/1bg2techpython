@@ -51,27 +51,26 @@
 # else:
 #   print("nie")
 
-#zad 6
-a = int(input())
-b = int(input())
-c = int(input())
+# zad 6
+# a = int(input())
+# b = int(input())
+# c = int(input())
 
-if c < (a + b) and c**2 < (a**2+b**2):
-  print("TAK")
-  print("Trójkąt ostrokątny")
-else:
-  print("NIE")
+# if c < (a + b) and c**2 < (a**2+b**2):
+#   print("TAK")
+#   print("Trójkąt ostrokątny")
 
 
-if c < (a + b) and c**2 == (a**2+b**2):
-  print("TAK")
-  print("Trójkąt prostokątny")
-else:
-  print("NIE")
+
+# if c < (a + b) and c**2 == (a**2+b**2):
+#   print("TAK")
+#   print("Trójkąt prostokątny")
 
   
-if c < (a + b) and c**2 > (a**2+b**2):
-  print("TAK")
-  print("Trójkąt rozwartokątny")
-else:
-  print("NIE")
+# if c < (a + b) and c**2 > (a**2+b**2):
+#   print("TAK")
+#   print("Trójkąt rozwartokątny")
+
+  
+# else:
+#   print("NIE")
