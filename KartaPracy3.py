@@ -51,11 +51,25 @@
 # print(suma)
 
 # DOD - suma liczb trzycyfrowych parzystych
-suma = 0
-for i in range(100,1000,2):
-  suma = suma + i # 100 + 102 + 104 + 106  + .... + 998
-print(suma)
+# suma = 0
+# for i in range(100,1000,2):
+#   suma = suma + i # 100 + 102 + 104 + 106  + .... + 998
+# print(suma)
 
 #zad 5
+# n = int(input())
+# suma = n * (n+1) // 2
+
+# for i in range(n-1):
+#   k = int(input())
+#   suma = suma - k
+# print("Nie podałeś: " suma)
+
+#zad 6
+
 n = int(input())
-x = int(input())
+a, b = 0, 1
+
+for i in range(n):
+  a, b = b, a + b
+  print(a, end=" ")
