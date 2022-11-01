@@ -29,11 +29,44 @@
 # print(a)
 
 #zad 7
-m = int(input())
-a = 0
-for i in range(10,1*m,1):
-  a = a + i
-print(a)
+# m = int(input())
+# a = 0
+# for i in range(10,m+1):
+#    a = a + i
+# print(a)
+
+#zad 8
+# Wo = int(input("Podaj kwotę wejściową inwestycji"))
+# L = int(input("Podaj okres inwestycji"))
+# Wartość=0
+# suma=Wartość
+# for i in range(0,L*12):
+#   Wartość=suma*0.06*(1/12)
+#   suma=suma+Wartość
+# print("Wartość inwestycji wynosi")
+# print(suma)
+
+#zad 9
+# n = int(input())
+# suma=0
+# for n in range (1,21):
+#   suma = suma + n
+# print(suma)
+
+#zad 10
+# import math
+# for i in range(1,1000):
+#   if i%10==math.sqrt(i):
+#     print(i)
+#   elif i%100==math.sqrt(i):
+#     print(i)
+
+
+
+
+
+
+
 
 
 
