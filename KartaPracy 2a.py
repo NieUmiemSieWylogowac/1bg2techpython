@@ -13,7 +13,7 @@
 # else:
 #   print("NIE")
 
-#zad 3
+#awazad 3
 # k=int(input())
 # l=int(input())
 # # m=int(input());
