@@ -11,8 +11,20 @@
 # print(suma)
 
 #zad 2
-l=int(input("Wpisz liczbę"))
-if l%2==0:
- print("Tak,liczba jest parzysta")
-else:
- print("Liczba nie jest parzysta")
+# l=int(input("Wpisz liczbę"))
+# if l%2==0:
+#  print("Tak,liczba jest parzysta")
+# else:
+#  print("Liczba nie jest parzysta")
+
+# ułamki
+# a = int(input("podaj mianownik"))
+# b = int(input("podaj licznik"))
+# c = int(input("podaj mianownik"))
+# d = int(input("podaj licznik"))
+# l1 = b%a
+# l2 = d%c
+# iloraz = 0
+# iloraz = iloraz + l1 + l2
+
+# print(iloraz)
