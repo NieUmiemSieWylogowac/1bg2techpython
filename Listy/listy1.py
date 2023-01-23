@@ -12,19 +12,19 @@ L = [7, 3, 8, 5, 6, 9]
 #   print(L[i], end=" ")
 # print("\n")
 
-print(L)
-L.append(4)
-L.append(5)
-print(L)
+# print(L)
+# L.append(4)
+# L.append(5)
+# print(L)
 
-print(L.count(5))
-print(L.index(5))
+# print(L.count(5))
+# print(L.index(5))
 
-L.reverse()
-print(L)
+# L.reverse()
+# print(L)
 
-L.sort()
-print(L)
+# L.sort()
+# print(L)
 
-print(max(L))
-print(min(L))
+# print(max(L))
+# print(min(L))
