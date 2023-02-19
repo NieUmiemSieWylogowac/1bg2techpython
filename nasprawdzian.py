@@ -72,3 +72,18 @@
 # for i in range(len(napis)):
 #   szyfr=szyfr+chr(65+ ((ord(napis[i])-65+3)%26))
 #   print(szyfr)
+
+# Huffman
+# W = "WWWWWWWWWWWWCCCCCCLLLKAAAAAANNNWWWWIIII"
+# W += "."
+# ilosc = 1
+# H = ""
+# for i in range(len(W)-1):
+#   if W[i] == W[i+1]:
+#     ilosc += 1
+#   else:
+#     if ilosc > 1:
+#       H += str(ilosc)
+#       H += W[i]
+#       ilosc = 1
+# print(H)
