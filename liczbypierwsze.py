@@ -7,8 +7,8 @@
 #     if i%j == 0:
 #       flaga = False
 #       break
-#   if flaga:
-#     print(i, end=" ")
+#     if flaga:
+#       print(i, end=" ")
 
 #Czy liczba jest liczbą pierwszą
 # n = int(input("Podaj liczbę"))
