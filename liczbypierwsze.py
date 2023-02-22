@@ -1,15 +1,15 @@
-# podaj liczby pierwsze w zakresie od N do E
-# n = int(input())
-# e = int(input())
-# for i in range(n,e+1):
-#   flaga = True;
-#   for j in range(2,i):
-#     if i%j == 0:
-#       flaga = False
-#       break
-#     if flaga:
-#       print(i, end=" ")
-
+ #podaj liczby pierwsze w zakresie od N do E
+n = int(input())
+e = int(input())
+for i in range(n,e+1) 
+flaga = True;
+    for j in range(2,i):
+      if i%j == 0:
+        flaga = False
+        break
+    if flaga:
+      print(i, end=" ")
+      break
 #Czy liczba jest liczbą pierwszą
 # n = int(input("Podaj liczbę"))
 # if n<=2:
