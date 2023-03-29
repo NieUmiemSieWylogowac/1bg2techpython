@@ -17,6 +17,49 @@
 # b ="".join(L)
 # print(b)
 
+#3. Waga napisu to suma kodow ascii jego liter. Zważ wpisany napis
+
+# d = input()
+# s = 0
+# for x in d:
+#   s += ord(x)
+# znak = s // len(d)
+# print(chr(znak))
+
+#4. Policz ile we wpisanym napisie jest liter A.
+
+# e = input()
+# ilosc = 0
+# for x in e:
+#   if x == "A":
+#     ilosc += 1
+# print(ilosc)
+
+# SAMO = ["A", "E", "I", "O", "U", "Y"]
+
+# ilosc_samo = 0
+# for x in e:
+#   if x in SAMO:
+#     ilosc_samo += 1
+# print(ilosc_samo)
+
+#5. Podaj dominującą literkę we wpisanym napisie
+
+# f = input()
+# maksiu = 0
+# for x in f:
+#   if f.count(x) > maksiu:
+#       maksiu = f.count(x)
+#       literka = x
+# print(literka, maksiu)
+
+#6. Sprawdź, czy w napisie występują trzy podciągi "LA"
+
+h=input()
+ilosc=0
+for i in range(len(h)):
+  if h[i:i+2] == "LA":
+    ilosc += 1
 
 # ZAGADNIENIA NA SPRAWDZIAN NAPISY
 # - len for foreach ord chr
