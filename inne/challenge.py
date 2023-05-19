@@ -28,3 +28,5 @@
 # iloraz = iloraz + l1 + l2
 
 # print(iloraz)
+
+#liczba złożConnectionAbortedError

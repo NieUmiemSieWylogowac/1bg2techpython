@@ -30,11 +30,18 @@
 
 # napisz alg który sprawdzi czy wyraz jest palindromem
 
-s = input()
-L = list(s)
-R = L
-R.reverse()
-if L == R:
-  print("Tak")
-else:
-  print("Nie")
+# s = input()
+# L = list(s)
+# R = L.copy()  # R = list(s)
+# R.reverse()
+# if L == R:
+#     print("TAK")
+# else:
+#     print("NIE")
+
+# palindrom ver 2
+# s = input()
+# for i in range(len(s)//2):
+#     if s[i] != s[len(s)-1-i]:
+#         exit("NIE")
+# exit("TAK")
