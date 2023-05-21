@@ -28,7 +28,7 @@
 #   wylosowane_liczby = random.randint(1000, 9999)
 #   print(wylosowane_liczby)
 #   if wylosowane_liczby > najwieksza_liczba:
-#       najwieksza_liczba = wylosowane_liczby
+#     najwieksza_liczba = wylosowane_liczby
 
 
 # print("Największa liczba to:", najwieksza_liczba)
@@ -50,32 +50,30 @@
 #    najmniejsza_cyfra = min(int(cyfra) for cyfra in liczba)
 #    print("Najmniejsza cyfra to", najmniejsza_cyfra)
 # else:
-#   print("BŁĄD","Liczba ma więcej lub mniej niż 3 cyfry")
+#    print("BŁĄD","Liczba ma więcej lub mniej niż 3 cyfry")
 
 #ALGORYTMY
 #Sprawdź czy wpisana przez usera liczba jest pierwsza
 # liczba = int(input("Podaj liczbę"))
 # if liczba <= 2:
-#   print("Nie")
+#  print("Nie")
 # else:
-#   for i in range(2,liczba):
-#     if liczba % i == 0:
-#       print("Nie")
-#       break
-#     else:
-#       print("Liczba jest liczbą pierwszą")
-#       break
+#  for i in range(2,liczba):
+#    if liczba % i == 0:
+#     print("Nie")
+#     exit()
+# print("Liczba jest liczbą pierwszą")
 
 #Sprawdź czy wpisana przez usera liczba jest złożona
 # liczba = int(input("Podaj liczbę"))
-# if liczba == 2:
-#   print("Tak, liczba jest złożona")
+# if liczba <= 2:
+#   print("Nie")
 # else:
-#   for i in range(2,liczba):
-#     if liczba % i == 0:
-#       print("Tak, liczba jest złożona")
-#       break
-#     else:
+#    for i in range(2,liczba):
+#      if liczba % i == 0:
+#        print("Tak, liczba jest złożona")
+#        break
+#      else:
 #       print("Nie")
 #       break
 
@@ -92,21 +90,28 @@
 # Zakoduj szyfrem cezara i kluczem k słowo s
 
 # def szyfr_cezara(slowo, klucz):
-#     zaszyfrowane = ""
+#     zaszyfrowane_slowo = ""
 #     for litera in slowo:
-#         if litera.isalpha():
-#             if litera.isupper():
-#                 zaszyfrowana_litera = chr((ord(litera) - ord('A') + klucz) % 26 + ord('A'))
-#             else:
-#                 zaszyfrowana_litera = chr((ord(litera) - ord('a') + klucz) % 26 + ord('a'))
-#             zaszyfrowane += zaszyfrowana_litera
+        
+#         if litera.isupper():
+#             pozycja = ord(litera) - ord('A')
+#             nowa_pozycja = (pozycja + klucz) % 26
+#             nowa_litera = chr(nowa_pozycja + ord('A'))
+#             zaszyfrowane_slowo += nowa_litera
+        
+#         elif litera.islower():
+#             pozycja = ord(litera) - ord('a')
+#             nowa_pozycja = (pozycja + klucz) % 26
+#             nowa_litera = chr(nowa_pozycja + ord('a'))
+#             zaszyfrowane_slowo += nowa_litera
+        
 #         else:
-#             zaszyfrowane += litera
-#     return zaszyfrowane
+#             zaszyfrowane_slowo += litera
 
-# slowo = input("Podaj słowo: ")
-# klucz = int(input("Podaj klucz: "))
+#     return zaszyfrowane_slowo
 
+# slowo = input("Wprowadź słowo: ")
+# klucz = int(input("Wprowadź klucz k: "))
 # zaszyfrowane_slowo = szyfr_cezara(slowo, klucz)
 # print("Zaszyfrowane słowo:", zaszyfrowane_slowo)
 
