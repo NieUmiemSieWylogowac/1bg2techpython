@@ -178,7 +178,7 @@
 # Sprawdź czy literki w napisie są w porządku nierosnącym
 
 # napis = input()
-# for i in range(len(napis)-1):
+# for i in range(len(napis)):
 #   if napis[i+1]<napis[i]:
 #     print("TAK")
 #     break
