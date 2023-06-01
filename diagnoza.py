@@ -1,6 +1,6 @@
 #Oblicz sumę liczb trzycyfrowych
 # suma=0
-# for i in range(100,999):
+# for i in range(100,1000):
 #  suma=suma + i
 # print(suma)
 
